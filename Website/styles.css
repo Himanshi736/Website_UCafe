@@ -1,0 +1,296 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff8e1;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+#header {
+    display: flex;
+    align-items: center;               
+    justify-content: center;            
+    padding: 2rem;
+    background-color: #ffcc80;       
+    text-align: center;
+    width: 100%;                        
+    box-sizing: border-box;
+} 
+
+.header-text h1 {
+    font-size: 2.5rem;
+    color: #e65100;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 19.2px;
+    color: #555;
+    margin-top: 8px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #f57c00;
+    padding: 1rem;
+    margin-bottom:0;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: #ffeb3b;
+}
+
+.hero {
+    display:flex;
+    justify-content: space-around;
+    margin: 0;
+    background-image: url(doodle.jpg);
+    height: 2000;
+    margin-top: 0%;
+    background-position: center;
+    background-size: 1050px;
+
+
+}
+
+.hero img {
+    width: 25%;
+    box-shadow: 0 4px 16px #bb4303; 
+    border-radius: 8px;                    
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px #bb4303; 
+    margin:3rem
+}
+
+
+
+.menu-section {
+    padding: 1rem;
+    background-color: #ffcc80;
+    text-align: center;
+}
+
+
+.menu-category {
+    display: flex;
+    flex-direction: column;       
+    align-items: center;        
+    margin-bottom: 2rem;
+}
+
+
+.menu-category h3 {
+    font-size: 1.8rem;
+    color: #e65100;
+    margin: 0;
+    padding-bottom: 1rem;        
+}
+
+.menu-item {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.price {
+    color: #777;
+    margin-left: 0.5rem;        
+}
+
+
+
+.drinks-gallery {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .drinks-gallery h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .drinks-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .drink-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 8px 16px #bb4303;
+    transition: transform 0.3s ease;
+    margin: 1rem
+  }
+  
+  .drink-image:hover {
+    transform: scale(1.05);
+  }
+
+  .drinks-gallery {
+    background-image: url('doodle.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: #fff;
+  }
+  
+  
+
+
+.about-section {
+    padding: 2rem;
+    background-color: #ffee58;
+    text-align: center;
+}
+
+.about-section p {
+    margin-top: 1rem;
+    color: #555;
+}
+
+
+.contact-section {
+    background-color: #ffcc80;
+    padding: 3rem;
+    text-align: center;
+}
+
+.contact-section p {
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f57c00;
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+.menu-section h2, 
+#about h2, 
+#contact h2  {
+    font-size: 2rem;               
+    color: #000000;
+    text-decoration: underline;     
+    text-decoration-color: #e65100; 
+    text-decoration-thickness: 2px; 
+    margin-bottom: 1rem;
+}
+
+
+#contact a {
+    color: #03416a; 
+    text-decoration: none; 
+}
+
+#contact a:hover {
+    color: #E4405F;
+}
+
+#contact i.fab.fa-instagram {
+    color: #E4405F; 
+    margin-right: 5px; 
+}
+
+
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.contact-form-section {
+    background-color: #ffd79b;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact-form-section h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+    text-decoration: underline;     
+    text-decoration-color: #e65100; 
+    text-decoration-thickness: 2px; 
+    margin-bottom: 1rem;
+
+  }
+  
+  .contact-form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .contact-form button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e65c00;
+  }
+  
+
+
+.slide-down {
+    animation: slideDown 3s ease-out;
+}
+
